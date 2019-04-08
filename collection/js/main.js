@@ -3,31 +3,36 @@ var catsArray = [{
     age: 7,
     color: "Black & Orange",
     fluffLevel: 5,
-    owned: true
+    mine: null,
+    picture: "img/kissa.jpg"
 }, {
     name: "Pico",
     age: 10,
     color: "Orange & Cream",
     fluffLevel: 1,
-    owned: false 
+    mine: false,
+    picture: "img/pico.jpg"
 }, {
     name: "Bear",
     age: 12,
     color: "Black",
     fluffLevel: 4,
-    owned: false
+    mine: false,
+    picture: "img/bear.jpg"
 },{
     name: "Olli",
     age: "10 Weeks",
     color: "White & Orange",
     fluffLevel: 2,
-    owned: true
+    mine: true,
+    picture: "img/olli.jpg"
 }, {
     name: "Osmo",
     age: "10 Weeks",
     color: "White & Orange",
     fluffLevel: 3,
-    owned: true
+    mine: true,
+    picture: "img/osmo.jpg"
 }]
 
 var vueApp = new Vue({
